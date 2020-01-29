@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Roboto;
+    src: url('Roboto-Thin.ttf');
+}
+
+@font-face{
+    font-family: Lato-Regular;
+    src: urla('Lato-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto Regular;
+    src: url('Roboto-Regular.ttf');
+}
+
+.body{
+    background: #fff;
+}
+.nav{
+    background: #fff; 
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.nav ul{
+    display: inline-block;
+}
+.nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 10%;
+    position: relative;
+}
+
+.nav ul li a{
+    color: black;
+    font-family: Roboto Regular;
+    text-decoration: none;
+    
+}
+
+.nav ul li .login{
+    color: blue;
+}
+
+.logo{
+    padding: 10%;
+}
+
+.box1{
+    margin: 2% 5% ;
+    display: flex;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.12), 0 1px 0px rgba(0, 0, 0, 0.24);
+}
+
+.box1 .foto1{
+    height: 60vh;
+}
+
+.box1 .foto2{
+    height: 25vh;
+}
+
+.box1 .foto3{
+    height: 25vh;
+}
+
+.box2{
+    display: flex;
+    margin: 5% 4%;
+}
+
+.h2{
+    font-family: Roboto Regular;
+}
+
+.h4{
+    font-family: Roboto Regular;
+}
+
+.text{
+    font-family: Roboto;
+    color: #707070;
+    line-height: 150%;
+}
+
+.linha{
+    padding: 1%;
+}
+
+.science{
+    font-family: Roboto;
+    color: orange;
+}
+
+.politic{
+    font-family: Roboto;
+    color: red;
+}
+
+.sports{
+    font-family: Roboto;
+    color: yellow;
+}
+
+.tech {
+    font-family: Roboto;
+    color: blue;
+}
+.autor{
+    display: flex;
+}
+
+.autor h6{
+    font-family: Roboto;
+    margin-left: 5%;
+    color: #707070;
+}
+
+.circle img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+  }
+
+.logo2{
+    margin-left:40%;
+}
+
+.menu{
+    margin:2%;
+}
+
+.h1{
+    font-family: Lato-Regular;
+    font-size: 24px;
+    color: #3E433E;
+}
